@@ -3,13 +3,13 @@
 <clients>
   <client>
     <name>Steve Bones</name>
-    <phone>(533) 55-5434</phone>
+    <phone>(533) 555-5434</phone>
     <email>Sbone@mail.com</email>
     <account_total>105000</account_total>
   </client>
   <client>
     <name>Cynthia Browne</name>
-    <phone>(532) 55-3813</phone>
+    <phone>(532) 555-3813</phone>
     <email>cynthia@brownes.com</email>
     <account_total>80000</account_total>
   </client>
