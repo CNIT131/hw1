@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNIT131 HW</title>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 80px;
+      }
+      p {
+        color: rgb(187, 179, 179);
+      }
+      table {
+          width: 80%;
+      }
+      th, td {
+          border: 1px solid #8a8181;
+          padding: 8px;
+          text-align: left;
+      }
+      th {
+          background-color: #f1e2e2;
+      }
+      a {
+          color: blue;
+      }
+      a:hover {
+          text-decoration: underline;
+      }
+  </style>
+</head>
+<body>
+    <h1>CNIT-131A - XML and JSON Assignments</h1>
+    <table>
+      <thead>
+          <tr>
+              <th>Assignment</th>
+              <th>Description</th>
+          </tr>
+      </thead>
+      <tbody id="assignments-table">
+      </tbody>
+  </table>
+
+  <script>
+    const descriptions = [
+      "Course page",
+      "Your first XML",
+      "XSLT",
+      "TBA",
+      "TBA",
+      "TBA",
+      "TBA",
+      "TBA",
+      "TBA",
+      "TBA"
+    ];
+
+    const tableBody = document.getElementById('assignments-table');
+    for (let i = 1; i <= 10; i++){
+      const row = document.createElement('tr');
+      const cell1 = document.createElement('td');
+      const cell2 = document.createElement('td');
+      const link = document.createElement('a');
+
+      link.href = `https://cnit131.github.io/hw${i}`;
+      link.textContent = `Homework ${i}`;
+      cell1.appendChild(link);
+      cell2.textContent = descriptions[i - 1];
+
+      row.appendChild(cell1);
+      row.appendChild(cell2);
+      tableBody.appendChild(row);
+    }
+  </script>
+</body>
+</html>
