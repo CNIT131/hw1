@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hw3.xsl"?>
+<clients>
+  <client>
+    <name>Steve Bones</name>
+    <phone>(533) 55-5434</phone>
+    <email>Sbone@mail.com</email>
+    <account_total>105000</account_total>
+  </client>
+  <client>
+    <name>Cynthia Browne</name>
+    <phone>(532) 55-3813</phone>
+    <email>cynthia@brownes.com</email>
+    <account_total>80000</account_total>
+  </client>
+  <client>
+    <name>Lee Hayes</name>
+    <phone>(534) 555-9082</phone>
+    <email>leehayes@clairon.net</email>
+    <account_total>118000</account_total>
+  </client>
+  <client>
+    <name>Sindy Kaufmann</name>
+    <phone>(532) 555-7212</phone>
+    <email>cka@ispnet.net</email>
+    <account_total>125000</account_total>
+  </client>
+  <client>
+    <name>Robert Olson</name>
+    <phone>(532) 555-8981</phone>
+    <email>rolson@delisp.net</email>
+    <account_total>25000</account_total>
+  </client>
+  <client>
+    <name>Jim Wheatley</name>
+    <phone>(542) 555-8828</phone>
+    <email>jim_wheatley@kyu.edu</email>
+    <account_total>83000</account_total>
+  </client>
+  <client>
+    <name>Jane Wilson</name>
+    <phone>(534) 555-7493</phone>
+    <email>jwilson@cls.net</email>
+    <account_total>95000</account_total>
+  </client>
+  <client>
+    <name>Grant Wu</name>
+    <phone>(532) 555-9939</phone>
+    <email>gwu@brockton.com</email>
+    <account_total>60000</account_total>
+  </client>
+</clients>
