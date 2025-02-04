@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="hw2.css"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hw2.xsd">
+    <header-row>
+        <title1>Title</title1>
+        <author>Authors</author>
+        <publisher>Publisher</publisher>
+    </header-row>
+    <book pages="350">
+        <title>Introduction to HTML</title>
+        <author>Joseph Gardner</author>
+        <publisher>Press &#169;</publisher>
+    </book>
+    <book pages="420">
+        <title>Networking Infrastructure</title>
+        <author>Adam Douglas &amp; Janice Dall</author>
+        <publisher>Cengage &#169;</publisher>
+    </book>
+    <book pages="310">
+        <title>Soft Skills in IT</title>
+        <author>Mark Hunter</author>
+        <publisher>Bolding Publisher &#169;</publisher>
+    </book>
+    <book pages="480">
+        <title>Network Security</title>
+        <author>Jennifer Starter &amp; Yuri Adantov</author>
+        <publisher>Wrox &#169;</publisher>
+    </book>
+    <book pages="290">
+        <title>XML &amp; JSON</title>
+        <author>Stuart Bell</author>
+        <publisher>Cengage &#169;</publisher>
+    </book>
+</catalog>
