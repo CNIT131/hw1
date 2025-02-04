@@ -1,0 +1,35 @@
+catalog {
+  background-color: rgb(246, 235, 235);
+  display: table;
+  width: auto;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+book {
+  display: table-row;
+}
+title1, author, publisher {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  white-space: nowrap;
+}
+title {
+  color: red;
+  font-weight: bold;
+}
+book:nth-child(even) {
+  background-color: rgb(149, 189, 137);
+}
+header-row {
+  display: table-row;
+  font-weight: bold;
+  background-color: #e7e6e6;
+}
+header-row title1,
+header-row author,
+header-row publisher {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
