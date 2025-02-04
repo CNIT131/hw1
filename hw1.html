@@ -72,14 +72,14 @@
     ];
 
     const tableBody = document.getElementById('assignments-table');
-    for (let i = 0; i < fileNames.length; i++) {
+    for (let i = 1; i < fileNames.length; i++) {
       const row = document.createElement('tr');
       const cell1 = document.createElement('td');
       const cell2 = document.createElement('td');
       const link = document.createElement('a');
 
-      link.href = `https://cnit131.github.io/hw1/${fileNames[i]}`;
-      link.textContent = `Homework ${i + 1}`;
+      link.href = `https://cnit131.github.io/hw1/${fileNames[i - 1]}`;
+      link.textContent = `Homework ${i}`;
       cell1.appendChild(link);
       cell2.textContent = descriptions[i];
 
